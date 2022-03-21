@@ -12,3 +12,7 @@
 - origin : 원격저장소 경로
 - master : 가장 기본적인 branch 경로
 - HEAD : 현재 작업공간(현재의 branch)
+
+#### Hub의 Repostitory 폴더를 새로 생성하지 않고 현재 폴더에 내려 받기
+
+- git clone "저장소 주소" . (한칸 띄우는게 중요)
