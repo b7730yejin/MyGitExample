@@ -10,7 +10,7 @@
 #### 2. git origin / master / HEAD
 
 - origin : 원격저장소 경로
-- master : 가장 기본적인 branch 경로
+- master(main) : 가장 기본적인 branch 경로
 - HEAD : 현재 작업공간(현재의 branch)
 
 #### 3. Hub의 Repostitory 폴더를 새로 생성하지 않고 현재 폴더에 내려 받기
@@ -22,3 +22,8 @@
 - git branch : 현재 생성되어 있는 모든 branch 확인
 - git branch [name] : name이란 이름을 가진 branch 생성
 - git checkout [branch] : 해당 branch로 전환
+
+#### 5. main 외 branch에서 파일 올리고 병합하기
+
+- 1. git checkout main 명령어로 일단 main으로 전환
+- 2. git merge [branch] 명령어로 병합 진행
